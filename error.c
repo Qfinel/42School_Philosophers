@@ -6,7 +6,7 @@
 /*   By: jtsizik <jtsizik@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 11:59:37 by jtsizik           #+#    #+#             */
-/*   Updated: 2022/11/27 12:58:16 by jtsizik          ###   ########.fr       */
+/*   Updated: 2022/11/28 17:49:43 by jtsizik          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,9 +30,6 @@ int	put_error(char *str, t_vars *vars)
 
 void	free_err(t_vars *vars)
 {
-	int	i;
-
-	i = 0;
 	if (vars->philos[0].index)
 	{
 		free(&vars->forks[0]);
